@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'Commercial', :text => 'LICENSE.md' }
     s.author           = { "Conviva" => "www.conviva.com" }
     s.source           = {
-        :git => 'https://github.com/Conviva/ConvivaBrightcove.git',
+        :git => 'git@github.com:Conviva/ConvivaBrightcove.git',
         :tag => s.version.to_s
     }
     s.ios.deployment_target = '12.0'
