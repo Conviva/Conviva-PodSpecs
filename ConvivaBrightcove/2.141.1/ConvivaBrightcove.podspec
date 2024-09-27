@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
     s.frameworks = 'CoreMedia','AVFoundation','SystemConfiguration','MobileCoreServices','CoreTelephony'
     s.vendored_framework   = "Framework/iOS/ConvivaBrightcove.framework"
     s.dependency 'ConvivaCore', '3.0.6'
-    s.dependency 'Brightcove-Player-Core', '6.4.3'
+    s.dependency 'Brightcove-Player-Core', '~>6.4.3'
 end
